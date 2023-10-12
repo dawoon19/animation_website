@@ -20,6 +20,7 @@
     align-items: center;
     justify-content: center;
     background-color: black;
+    font-family:'Lexend Deca';
 }
 
 .main .popup-window {
@@ -48,7 +49,7 @@ h3 {
 
 input {
     color:white;
-    font-family:'Josefin Sans';
+    font-family:'Lexend Deca';
     font-weight:300;
     padding:10px;
     background: transparent;
@@ -56,15 +57,26 @@ input {
     border-radius: 10px;
 }
 
+form {
+    margin-bottom: 30px;
+}
+
 .button {
     padding:10px 20px 10px 20px;
-    background:linear-gradient();
+    background:linear-gradient(white,white);
+    background-repeat: no-repeat;
+    background-size: 0 auto;
+    border: 1px solid white;
     border-radius:10px;
     text-decoration: none;
-    font-family: 'Josefin Sans';
-    font-weight:900;
+    font-family: 'Lexend Deca';
+    color:white;
+    font-weight:700;
+    transition: background-size 0.2s ease-in-out, color 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 .button:hover {
-    
+    background-size: 100% auto;
+    color: black;
 }
